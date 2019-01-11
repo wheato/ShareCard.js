@@ -1,5 +1,5 @@
 import INodeOption from './INodeOption'
 
-export interface IListNodeOption extends INodeOption {
+export default interface IListNodeOption extends INodeOption {
   type: NodeType
 }
