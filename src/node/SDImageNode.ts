@@ -1,10 +1,9 @@
 import Node from './Node'
 import IImageNodeOption from './types/IImageNodeOption'
+import Stage from '../stage/Stage'
 
 export default class SDImageNode extends Node {
-  private styles: string[]
-  private value: string | number | string[]
-  constructor(config: IImageNodeOption) {
-    super(config)
+  constructor(config: IImageNodeOption, stage?: Stage) {
+    super(config, stage)
   }
 }

@@ -1,10 +1,9 @@
 import Node from './Node'
 import ITextNodeOption from './types/ITextNodeOption'
+import Stage from '../stage/Stage'
 
 export default class SDTextNode extends Node {
-  private styles: string[]
-  private value: string | number | string[]
-  constructor(config: ITextNodeOption) {
-    super(config)
+  constructor(config: ITextNodeOption, stage?: Stage) {
+    super(config, stage)
   }
 }

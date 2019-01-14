@@ -1,10 +1,9 @@
 import Node from './Node'
 import IListNodeOption from './types/IListNodeOption'
+import Stage from '../stage/Stage'
 
 export default class SDListNode extends Node {
-  private styles: string[]
-  private value: string | number | string[]
-  constructor(config: IListNodeOption) {
-    super(config)
+  constructor(config: IListNodeOption, stage?: Stage) {
+    super(config, stage)
   }
 }

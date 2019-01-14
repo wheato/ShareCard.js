@@ -6,4 +6,6 @@ export default abstract class Stage {
   setFont(family: string) {}
   setFontSize(size: number) {}
   setColor(color: string) {}
+  toDataURL(type?: string, options?: number) {}
+  toBlob(cb: BlobCallback, type?: string, quality?: number) {}
 }
