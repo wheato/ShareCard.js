@@ -7,40 +7,6 @@ A lite framework for Webapp &amp; WeApp to create share card image in frontend.
 
 ### Quick Start
 ```javascript
-
-const card = new ShareCard({
-  style: {
-    width: 1200,
-    height: 800
-  },
-  elems: [
-    {
-      type: 'text',
-      value: '123123',
-      style: {
-        align: 'center',
-        top: 20
-      }
-    }, {
-      type: 'image',
-      value: '../url',
-      style: {
-        width: 100,
-        height: 100
-      }
-    }
-  ]
-})
-
-const textNode = new TextNode({
-  style: {},
-  value: 'xxxxxx'
-})
-
-card.append(textNode)
-
-card.exportBase64('png' | 'jpg', 100 /* jpeg quality */)
-card.exportBlob()
 ```
 
 ### NodeType
