@@ -21,7 +21,6 @@ A lite framework for Webapp &amp; WeApp to create share card image in frontend.
 
 * width
 * height
-* background
 * fontSize
 * font
 * color
@@ -30,6 +29,7 @@ A lite framework for Webapp &amp; WeApp to create share card image in frontend.
 * right
 * bottom
 * left
+* src (if Tag is image)
 
 ## License
 ShareCard.js is licensed under a [MIT License](./LICENSE).

@@ -13,7 +13,7 @@ export default function tokenzier(input: string) {
     let char = input[index]
 
     if (fsm.now() === tokenStatus.DATA) {
-      if (char === '<') { // start tag
+      if (char === '<') {
         token.type = tokenTypes.DATA
         tokens.push(token)
         fsm.next()
